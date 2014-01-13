@@ -1,23 +1,4 @@
-///////////////////////////////////////////////////////////////////////////////
-//                   ALL STUDENTS COMPLETE THESE SECTIONS
-// Main Class File:  MazeSolver.java
-// File:             ArrayQueue.java
-// Semester:         CS302 Spring 2013
-//
-// Author:           Steven Volocyk sevenex@gmaio.com
-// CS Login:         volocyk
-// Lecturer's Name:  Jim Skrentny
-// Lab Section:      Lecture 2
-//
-//                   PAIR PROGRAMMERS COMPLETE THIS SECTION
-// Pair Partner:     (name of your pair programming partner)
-// CS Login:         (partner's login name)
-// Lecturer's Name:  (name of your partner's lecturer)
-// Lab Section:      (your partner's lab section number)
-//
-//                  
-// Credits:         
-//////////////////////////// 80 columns wide //////////////////////////////////
+
 public class ArrayQueue<E> implements QueueADT<E> {
     private static final int INITSIZE = 10;
     private E[] items;    // items array
